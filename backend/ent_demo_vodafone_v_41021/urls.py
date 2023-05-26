@@ -34,9 +34,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "ent-demo-vodafone-v03-UK"
-admin.site.site_title = "ent-demo-vodafone-v03-UK Admin Portal"
-admin.site.index_title = "ent-demo-vodafone-v03-UK Admin"
+admin.site.site_header = "ent-demo-vodafone-v03-uk"
+admin.site.site_title = "ent-demo-vodafone-v03-uk Admin Portal"
+admin.site.index_title = "ent-demo-vodafone-v03-uk Admin"
 
 # swagger
 urlpatterns += [
